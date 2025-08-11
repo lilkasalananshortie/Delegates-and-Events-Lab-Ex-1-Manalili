@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Account_Registration
 {
-    internal class Code
+    internal class StudentInfoClass
     {
     }
 }
