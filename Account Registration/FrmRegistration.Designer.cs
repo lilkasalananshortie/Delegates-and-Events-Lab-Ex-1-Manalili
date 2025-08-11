@@ -1,6 +1,6 @@
 ﻿namespace Account_Registration
 {
-    partial class Form1
+    partial class FrmRegistration
     {
         /// <summary>
         /// Required designer variable.
