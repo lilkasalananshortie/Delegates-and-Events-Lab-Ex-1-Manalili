@@ -36,14 +36,15 @@
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.textBox8 = new System.Windows.Forms.TextBox();
+            this.txtStudentNo = new System.Windows.Forms.TextBox();
+            this.txtLastname = new System.Windows.Forms.TextBox();
+            this.txtFirstname = new System.Windows.Forms.TextBox();
+            this.txtMiddlename = new System.Windows.Forms.TextBox();
+            this.txtAge = new System.Windows.Forms.TextBox();
+            this.txtContactNO = new System.Windows.Forms.TextBox();
+            this.txtAddress = new System.Windows.Forms.TextBox();
+            this.nxtBtn = new System.Windows.Forms.Button();
+            this.cbProgram = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
             // 
             // nameLbl
@@ -120,75 +121,87 @@
             this.label7.Text = "Address : ";
             this.label7.Click += new System.EventHandler(this.label7_Click);
             // 
-            // textBox1
+            // txtStudentNo
             // 
-            this.textBox1.Location = new System.Drawing.Point(41, 56);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 20);
-            this.textBox1.TabIndex = 8;
+            this.txtStudentNo.Location = new System.Drawing.Point(41, 56);
+            this.txtStudentNo.Name = "txtStudentNo";
+            this.txtStudentNo.Size = new System.Drawing.Size(100, 20);
+            this.txtStudentNo.TabIndex = 8;
             // 
-            // textBox2
+            // txtLastname
             // 
-            this.textBox2.Location = new System.Drawing.Point(202, 56);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 20);
-            this.textBox2.TabIndex = 9;
+            this.txtLastname.Location = new System.Drawing.Point(41, 131);
+            this.txtLastname.Name = "txtLastname";
+            this.txtLastname.Size = new System.Drawing.Size(100, 20);
+            this.txtLastname.TabIndex = 10;
             // 
-            // textBox3
+            // txtFirstname
             // 
-            this.textBox3.Location = new System.Drawing.Point(41, 131);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(100, 20);
-            this.textBox3.TabIndex = 10;
+            this.txtFirstname.Location = new System.Drawing.Point(202, 131);
+            this.txtFirstname.Name = "txtFirstname";
+            this.txtFirstname.Size = new System.Drawing.Size(100, 20);
+            this.txtFirstname.TabIndex = 11;
             // 
-            // textBox4
+            // txtMiddlename
             // 
-            this.textBox4.Location = new System.Drawing.Point(202, 131);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(100, 20);
-            this.textBox4.TabIndex = 11;
+            this.txtMiddlename.Location = new System.Drawing.Point(332, 131);
+            this.txtMiddlename.Name = "txtMiddlename";
+            this.txtMiddlename.Size = new System.Drawing.Size(100, 20);
+            this.txtMiddlename.TabIndex = 12;
             // 
-            // textBox5
+            // txtAge
             // 
-            this.textBox5.Location = new System.Drawing.Point(332, 131);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(100, 20);
-            this.textBox5.TabIndex = 12;
+            this.txtAge.Location = new System.Drawing.Point(41, 197);
+            this.txtAge.Name = "txtAge";
+            this.txtAge.Size = new System.Drawing.Size(100, 20);
+            this.txtAge.TabIndex = 13;
             // 
-            // textBox6
+            // txtContactNO
             // 
-            this.textBox6.Location = new System.Drawing.Point(41, 197);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(100, 20);
-            this.textBox6.TabIndex = 13;
+            this.txtContactNO.Location = new System.Drawing.Point(202, 197);
+            this.txtContactNO.Name = "txtContactNO";
+            this.txtContactNO.Size = new System.Drawing.Size(100, 20);
+            this.txtContactNO.TabIndex = 14;
             // 
-            // textBox7
+            // txtAddress
             // 
-            this.textBox7.Location = new System.Drawing.Point(202, 197);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(100, 20);
-            this.textBox7.TabIndex = 14;
+            this.txtAddress.Location = new System.Drawing.Point(41, 236);
+            this.txtAddress.Name = "txtAddress";
+            this.txtAddress.Size = new System.Drawing.Size(372, 20);
+            this.txtAddress.TabIndex = 15;
             // 
-            // textBox8
+            // nxtBtn
             // 
-            this.textBox8.Location = new System.Drawing.Point(41, 236);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(100, 20);
-            this.textBox8.TabIndex = 15;
+            this.nxtBtn.Location = new System.Drawing.Point(192, 332);
+            this.nxtBtn.Name = "nxtBtn";
+            this.nxtBtn.Size = new System.Drawing.Size(75, 23);
+            this.nxtBtn.TabIndex = 16;
+            this.nxtBtn.Text = "Next";
+            this.nxtBtn.UseVisualStyleBackColor = true;
+            this.nxtBtn.Click += new System.EventHandler(this.nxtBtn_Click);
+            // 
+            // cbProgram
+            // 
+            this.cbProgram.FormattingEnabled = true;
+            this.cbProgram.Location = new System.Drawing.Point(202, 56);
+            this.cbProgram.Name = "cbProgram";
+            this.cbProgram.Size = new System.Drawing.Size(121, 21);
+            this.cbProgram.TabIndex = 17;
             // 
             // FrmRegistration
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(464, 450);
-            this.Controls.Add(this.textBox8);
-            this.Controls.Add(this.textBox7);
-            this.Controls.Add(this.textBox6);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.cbProgram);
+            this.Controls.Add(this.nxtBtn);
+            this.Controls.Add(this.txtAddress);
+            this.Controls.Add(this.txtContactNO);
+            this.Controls.Add(this.txtAge);
+            this.Controls.Add(this.txtMiddlename);
+            this.Controls.Add(this.txtFirstname);
+            this.Controls.Add(this.txtLastname);
+            this.Controls.Add(this.txtStudentNo);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
@@ -199,6 +212,7 @@
             this.Controls.Add(this.nameLbl);
             this.Name = "FrmRegistration";
             this.Text = "Student Registration Form";
+            this.Load += new System.EventHandler(this.FrmRegistration_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -214,14 +228,15 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.TextBox textBox7;
-        private System.Windows.Forms.TextBox textBox8;
+        private System.Windows.Forms.TextBox txtStudentNo;
+        private System.Windows.Forms.TextBox txtLastname;
+        private System.Windows.Forms.TextBox txtFirstname;
+        private System.Windows.Forms.TextBox txtMiddlename;
+        private System.Windows.Forms.TextBox txtAge;
+        private System.Windows.Forms.TextBox txtContactNO;
+        private System.Windows.Forms.TextBox txtAddress;
+        private System.Windows.Forms.Button nxtBtn;
+        private System.Windows.Forms.ComboBox cbProgram;
     }
 }
 
