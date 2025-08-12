@@ -43,6 +43,8 @@ namespace Account_Registration
             lblContactNo.Text = DelNumContactNo(ContactNo).ToString();
             lblStudentNo.Text = DelStudNo(StudentNo).ToString();
 
+           
+
         }
 
         private void Submitbtn_Click(object sender, EventArgs e)
