@@ -16,6 +16,8 @@ namespace Account_Registration
         private DelegateText DelProgram, DelLastName, DelFirstName, DelMiddleName, DelAddress;
         private DelegateNumber DelNumAge, DelNumContactNo, DelStudNo;
 
+        
+
         public FrmConfirm()
         {
             InitializeComponent();
@@ -42,8 +44,6 @@ namespace Account_Registration
             lblAge.Text = DelNumAge(Age).ToString();
             lblContactNo.Text = DelNumContactNo(ContactNo).ToString();
             lblStudentNo.Text = DelStudNo(StudentNo).ToString();
-
-           
 
         }
 

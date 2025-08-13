@@ -20,24 +20,16 @@ namespace Account_Registration
         }
         private void FrmRegistration_Load(object sender, EventArgs e)
         {
-            cbProgram.Items.Add("BS Computer Science");
-            cbProgram.Items.Add("BS Information Technology");
-            cbProgram.Items.Add("BS Information Systems");
-            cbProgram.Items.Add("BS Software Engineering");
-            cbProgram.Items.Add("BS Data Science");
+            cbProgram.Items.Add("BSIT");
+            cbProgram.Items.Add("BSCS");
+            cbProgram.Items.Add("BIT");
+            cbProgram.Items.Add("BSCpE");
+            cbProgram.Items.Add("BSBA");
+            cbProgram.Items.Add("BSP");
+            cbProgram.Items.Add("BSN");
+            cbProgram.Items.Add("BSP");
+            cbProgram.Items.Add("BSEE");
         }
-
-        private void label7_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label4_Click(object sender, EventArgs e)
-        {
-
-        }
-
-      
 
         private void nxtBtn_Click(object sender, EventArgs e)
         {
@@ -67,6 +59,9 @@ namespace Account_Registration
 
         }
 
-        
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
